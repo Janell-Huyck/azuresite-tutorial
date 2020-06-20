@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+flake8 = "*"
+
+[packages]
+psycopg2-binary = "==2.8.4"
+pytz = "==2018.5"
+whitenoise = "==4.1"
+Django = "==2.1.2"
+
+[requires]
+python_version = "3.8"
